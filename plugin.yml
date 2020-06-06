@@ -1,0 +1,22 @@
+name: WarpBooks
+description: End-game warp items!
+author: Raus
+main: com.raus.warpBooks.Main
+version: 1.0
+api-version: 1.15
+
+commands:
+  warpto:
+    default: true
+  rip:
+    description: Rip a page from your warp book
+    default: true
+    usage: "Usage: /rip [page num]"
+  rename:
+    description: Rename your warp
+    default: true
+    usage: "Usage: /rename [warp name]"
+  lore:
+    description: Give your warp a description
+    default: true
+    usage: "Usage: /lore [warp lore]"
